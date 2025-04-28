@@ -1,11 +1,11 @@
 extends Node2D
 
 # Gemini API配置
-const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-var api_key = "AIzaSyAzEBj1LL_K3ooCO0qthD6x4jE12RGMpBo" # 需要设置你的Gemini API密钥
+const GEMINI_API_URL = ""
+var api_key = "" # 需要设置你的Gemini API密钥
 
 # 智能音乐服务URL
-const CHATJAMS_URL = "https://www.chatjams.ai/playlist/"
+const CHATJAMS_URL = ""
 
 # 预设的对话内容(英文)
 var dialogues = [
